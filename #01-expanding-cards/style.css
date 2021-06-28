@@ -1,11 +1,10 @@
 * {
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box;   
 }
 
 body {
     font-family: sans-serif; 
+    background-color: rgba(126, 123, 139, 0.877);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,9 +26,10 @@ body {
     border-radius: 50px;
     color: #fff;
     cursor: pointer;
-    flex: 0.5px;
+    flex: 0.5;
     margin: 10px;
     position: relative;
+    transition: ease-in;
     -webkit-transition: all 700ms ease-in;
 
 }
@@ -49,7 +49,7 @@ body {
 
 .panel.active h3 {
     opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
+    transition: opacity 0.3s ease-in 0.7s;
 }
 
 @media (max-width: 480px) {
